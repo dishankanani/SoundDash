@@ -28,3 +28,15 @@ spotifyApi
 			console.log("Something went wrong!", err);
 		},
 	);
+
+// Get Users Current Playing Track
+spotifyApi.getMyCurrentPlayingTrack().then(
+	function (data) {
+		fs.writeFile("data.json", JSON.stringify(data.body), function (err) {
+			console.log(err);
+		});
+	},
+	function (err) {
+		console.log("Something went wrong!", err);
+	},
+);

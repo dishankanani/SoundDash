@@ -1,0 +1,36 @@
+{
+	"collaborative": false,
+	"description": "My description",
+	"external_urls": {
+		"spotify": "https://open.spotify.com/playlist/344dbyhQicyooFBJCGh71e"
+	},
+	"followers": { "href": null, "total": 0 },
+	"href": "https://api.spotify.com/v1/playlists/344dbyhQicyooFBJCGh71e",
+	"id": "344dbyhQicyooFBJCGh71e",
+	"images": [],
+	"name": "Dorimi",
+	"owner": {
+		"display_name": "divesh kavad Bhai",
+		"external_urls": {
+			"spotify": "https://open.spotify.com/user/31xio2hlkuvtsgut6b5v7rvbwsiy"
+		},
+		"href": "https://api.spotify.com/v1/users/31xio2hlkuvtsgut6b5v7rvbwsiy",
+		"id": "31xio2hlkuvtsgut6b5v7rvbwsiy",
+		"type": "user",
+		"uri": "spotify:user:31xio2hlkuvtsgut6b5v7rvbwsiy"
+	},
+	"primary_color": null,
+	"public": true,
+	"snapshot_id": "MSwwOTJlODViZmUzZWIzMTQ4YWM0ZGEzNjc5NDJmZDRiNWQ1ODNmNDhl",
+	"tracks": {
+		"href": "https://api.spotify.com/v1/playlists/344dbyhQicyooFBJCGh71e/tracks",
+		"items": [],
+		"limit": 100,
+		"next": null,
+		"offset": 0,
+		"previous": null,
+		"total": 0
+	},
+	"type": "playlist",
+	"uri": "spotify:playlist:344dbyhQicyooFBJCGh71e"
+}

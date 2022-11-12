@@ -15,6 +15,29 @@ app.post("/help", (req, res) => {
 	});
 });
 
+app.post("/getCurrentPlayingTrack", async (req, res) => {
+	// Get Users Current Playing Track
+	spotifyApi.getMyCurrentPlayingTrack().then(
+		function (data) {
+			fs.writeFile(
+				"assets/currentPlaying.json",
+				JSON.stringify(data.body),
+				function (err) {
+					console.log(err);
+				},
+			);
+
+			return res.status(200).json({
+				message: "Current playing track!",
+				data: data.body,
+			});
+		},
+		function (err) {
+			console.log("Something went wrong!", err);
+		},
+	);
+});
+
 app.listen(3000, () => {
 	console.log("Server is running on port 3000");
 });
