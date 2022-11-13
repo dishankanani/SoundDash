@@ -14,19 +14,12 @@ async function handleSpotifyAPI() {
 
 	// credentials are optional
 	var spotifyApi = new SpotifyWebApi({
-		clientId: "a9d65fbdc535425c99ad3e06fe119727",
-		clientSecret: "8c59f3427ea3471490332bcdb9fdcadd",
+		clientId: "",
+		clientSecret: "",
 		redirectUri: "http://localhost:9000/",
 	});
-	// var spotifyApi = new SpotifyWebApi({
-	// 	clientId: "7f393f8e4a94403d8879987a0cf76a27",
-	// 	clientSecret: "450d7255b78242388d5734459c13a855",
-	// 	redirectUri: "http://localhost:9000/",
-	// });
 
-	spotifyApi.setAccessToken(
-		"BQAoBaLvnf0ikkutIF4rchOH6KBku-w4I46-CGs_0k0YS15Awgc-Kk-1Yz0zCFeiWSIErQkk2AHFWjrTd7i7d-qrsFlHZk71IkhS9ZiGygQ7WkqJR3lbo9oWEOcdFkmHs3YciM4xE6n6gW2p6GddwlSd46vkRKdZZcm7WCvnoPhMPfpBT6MAx3QVo8cwghRm_wh2Wop7jK76kgcjruAm9XNVSkUMJFdrVEf8dENh7E8p",
-	);
+	spotifyApi.setAccessToken("");
 
 	var playlistID;
 	var listOfSongs = [];
