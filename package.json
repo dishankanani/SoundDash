@@ -1,22 +1,22 @@
 {
-	"name": "do-re-mihacks-3",
+	"name": "sound-dash",
 	"version": "1.0.0",
 	"description": "Simplify your tedious task of playlist creation.",
-	"main": "server.js",
+	"main": "Wix/Public Backend/server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node server.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/harikanani/Sentimify.git"
+		"url": "git+https://github.com/dishankanani/SoundDash.git"
 	},
-	"author": "harikanani",
+	"author": "dishankanani",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/harikanani/Sentimify/issues"
+		"url": "https://github.com/dishankanani/SoundDash/issues"
 	},
-	"homepage": "https://github.com/harikanani/Sentimify#readme",
+	"homepage": "https://github.com/dishankanani/SoundDash#readme",
 	"dependencies": {
 		"axios": "^1.1.3",
 		"spotify-web-api-node": "^5.0.2",
